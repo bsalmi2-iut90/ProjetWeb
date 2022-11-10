@@ -34,6 +34,7 @@ nav{
 }
 .logo{
     width:45px;
+    margin-left: 45px;
 }
 .nav-bar{
     position: relative;
@@ -49,13 +50,14 @@ nav{
   }
   .blockG{
     margin:10px;
+    margin-left: 10px;
   }
   .blockD{
     position: absolute;
     right: 0;
     display: flex;
     margin: -5px;
-    margin-right: 5px;
+    margin-right: 60px;
   }
 a{
     text-decoration: none;
