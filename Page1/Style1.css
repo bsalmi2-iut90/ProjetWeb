@@ -1,0 +1,103 @@
+
+/* 1400 px de large et 1035 px de haut
+/* Title */
+h1{
+position: absolute;
+width: 45%;
+
+left: 25%;
+top: 17.5%;
+
+/* Heading 02 */
+font-family: 'Public Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 56px;
+line-height: 62px;
+/* identical to box height, or 111% */
+text-align: center;
+letter-spacing: -2.4px;
+
+/* Text Primary */
+color: #000000;
+}
+
+h2{/* Subtitle */
+
+position: absolute;
+width: 45%;
+left: 25%;
+top: 30%;
+
+/* Paragraph 01 */
+font-family: 'Public Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+text-align: center;
+letter-spacing: -0.4px;
+
+/* Text Secondary */
+color: #979797;
+
+mix-blend-mode: normal;
+}
+
+
+
+
+
+
+/* Secondary */
+.posbut{
+position: absolute;
+width: 7%;
+height: 0.7%;
+left: 39%;
+top: 45%;
+}
+
+
+/* Button Outlined */
+.button03{
+position: absolute;
+width: 200%;
+height: 1000%;
+
+
+/* Primary */
+border: 1px solid #0D0D0D;
+
+
+/* Button Text */
+position: absolute;
+left: 34.57%;
+right: 33.98%;
+top: 28%;
+bottom: 28%;
+
+/* Button 03 */
+font-family: 'Public Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 138% */
+text-align: center;
+letter-spacing: -0.4px;
+
+/* Primary */
+color: #0D0D0D;
+}
+
+/* Image */
+
+position: absolute;
+width: 1114px;
+height: 521px;
+left: 145px;
+top: 381px;
+
+background: #C4C4C4;
