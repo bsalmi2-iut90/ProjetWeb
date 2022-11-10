@@ -1,6 +1,6 @@
 # ProjetWeb
 ## URL:
-du site: https://bsalmi2-iut90.github.io/ProjetWeb/
+du site: https://bsalmi2-iut90.github.io/ProjetWeb/Page1/Page1.html
 
 du projet: https://github.com/bsalmi2-iut90/ProjetWeb
 
