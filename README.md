@@ -1,6 +1,8 @@
 # ProjetWeb
 Groupe : Billal SALMI Léo MOUGIN Antoine NERET Noah BONNEAU Emma AUBERT
 ## Liens des Pages:
+NAVBAR & Footer (Léo): https://bsalmi2-iut90.github.io/ProjetWeb/NAVBAR-FOOTER/index.html
+
 Page Accueil (Antoine): https://bsalmi2-iut90.github.io/ProjetWeb/Page1/Page1.html
 
 Page Produit (Emma): https://bsalmi2-iut90.github.io/ProjetWeb/Page3/Page3.html
