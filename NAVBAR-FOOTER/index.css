@@ -90,7 +90,6 @@ nav a:hover{
   .li-cacher{
     display: none;
     text-decoration: none;
-    color: white;
   }
   
   
@@ -249,6 +248,10 @@ footer a:hover{
   .menu{
     display:block;
   }
+nav .nav-bar .blockG .menu-cacher li a{
+    color: black;
+  }
+
 
   /*----------------------- La partie Mobile du footer--------------------*/
   footer{
