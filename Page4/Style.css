@@ -160,7 +160,12 @@ nav a:hover{
 	width: 100%;
 }
 
-img {
+.arme1 {
+	height: 133px;
+	width: 129px;
+}
+
+.arme2 {
 	height: 133px;
 	width: 129px;
 }
