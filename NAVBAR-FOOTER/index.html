@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,36 +10,97 @@
     <link rel="stylesheet" href="index.css"/>
     <link rel="shortcut icon" href="logo.ico"/>
     <title>NAVBAR & FOOTER</title>
+    
 </head>
 <body>
+
+    <!-------------------------NAVBAR ---------------------------->
     <nav>
         <ul>
-            <div class="nav-bar">
-                <img src="logo.png" alt="logo" class="logo">
+            <img src="logo.png" alt="logo" class="logo">
+            <div class="nav-bar">       
             <div class="blockG">
-                <li><strong><a href="Page1.html">Ecommerce</a></strong></li> <!-- Le strong dépend de la page sur laquelle on est-->
-                <li><a href="page2.html">Shop</a></li>
-                <li><a href="page3.html">Storie</a></li>
-                <li><a href="page4.html">About</a></li>
-                <li>
-                    <img src="loupe.png" alt="icone-loupe" class="loupe">
-                    <input  class="search" type="text"name="search" placeholder="Search...">
-                </li>
+                <div class="menu-cacher">
+
+                    <!----------------ATTENTION pour les lien si vous j'ai mis n'importe quoi changer les si besoin-->
+
+
+                    <li><a href="index.html">Accueil</a></li> 
+                    <li><a href="page2.html">Articles</a></li>
+                    <li><a href="page3.html">Produits</a></li>
+                    <li class="li-cacher"><a href="#">Panier</a></li>
+                    <li class="li-cacher"><a href="#">Profil</a></li>
+                    <li>
+                        <img src="loupe.png" alt="icone-loupe" class="loupe">
+                        <input   class="search" type="text"name="search" placeholder="Search...">
+                    </li>
+                </div>
+                
+                
             </div>
             <div class="blockD">
+            <!----------------ATTENTION pour les lien si vous j'ai mis n'importe quoi changer les si besoin-->
+
                 <li><a href="page_panier.html"><img src="panier.png" alt="icone-panier" class="panier"></a></li>
-                <li><a href="page_profil.html">Login</a></li>
+                <li><a href="#">Profil</a></li>
             </div>
             </div>
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" alt="menu-navbar" width="35" height="35" fill="currentColor" class="menu" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+            </a>
         </ul>
     </nav>
-   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
+<!--------------------------FOOTER----------------------->
     <footer>
-        TEST 
-        <br><br><br><br><br><br><br><br><br><br><br><br>
+            <div class="f1">
+                    <span><strong>Inscrivez vous pour suivre nos informations</strong></span>
+                    <p>Soyer le premier au courant de nos offres spécials, nos nouveaux produits and les différents évènements que nous organisons</p>                
+                    <div class="box">
+                        <div class="boxG">
+                            <input class="email" type="text"name="search" placeholder="Adresse Email..." >
+                        </div>
+                        <div class="boxD">
+                            <a href="#">S'incrire</a> 
+                        </div>
+                    </div>
+                
+            </div>
+            <div class="f2">
+                <span><strong>Boutique</strong></span>
+                <a href="#">Militaire</a>
+                <a href="#">Chasse</a>
+                <a href="#">Munitions</a>
+                <a href="#">Pays</a>
+                <a href="#">Equipement</a>
+                <a href="#">Airsoft</a>
+            </div>
+            <div class="f3">
+               <span><strong>Aide</strong></span>
+               <a href="#">Besoins d'aide</a> 
+               <a href="#">État de la commande</a>
+               <a href="#">Retours & Garantie</a>
+               <a href="#">Nous contacter</a>
+            </div>
+            <div class="f4">
+                <span><strong>À propos</strong></span>
+                <a href="#">À propos de nous</a>
+                <a href="#">Responsabilité</a>
+                <a href="#">Technologie & Innovation</a>
+                </div>
     </footer>
  
 </header>
 </body>
+
+<!------------- un peu de JavaScript pour faire marcher l'apparition de la NavBar à mettre après le body----------------------->
+<script>
+    const menuHamburger = document.querySelector(".menu")
+    const navLinks = document.querySelector(".nav-bar")
+
+    menuHamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('mobile-menu')
+    })
+</script>
 </html>
