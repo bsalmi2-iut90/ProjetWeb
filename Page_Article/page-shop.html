@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page-shop.css">
+    <link rel="shortcut icon" href="media/logo.ico"/>
+    <title>Arfau</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <img src="media/logo.png" alt="logo" class="logo">
+                <div class="nav-bar">       
+                <div class="blockG">
+                    <div class="menu-cacher">
+    
+                        <!----------------ATTENTION pour les lien si vous j'ai mis n'importe quoi changer les si besoin-->
+    
+    
+                        <li><a href="https://bsalmi2-iut90.github.io/ProjetWeb/Page1/Page1.html">Accueil</a></li> 
+                        <li><a href="#">Articles</a></li>
+                        <li><a href="https://bsalmi2-iut90.github.io/ProjetWeb/Page3/Page3.html">Produits</a></li>
+                        <li class="li-cacher"><a href="">Panier</a></li>
+                        <li class="li-cacher"><a href="#">Profil</a></li>
+                        <li>
+                            <img src="media/loupe.png" alt="icone-loupe" class="loupe">
+                            <input   class="search" type="text"name="search" placeholder="Search...">
+                        </li>
+                    </div>
+                    
+                    
+                </div>
+                <div class="blockD">
+                <!----------------ATTENTION pour les lien si vous j'ai mis n'importe quoi changer les si besoin-->
+    
+                    <li><a href="https://bsalmi2-iut90.github.io/ProjetWeb/Page4/Page_panier.html"><img src="media/panier.png" alt="icone-panier" class="panier"></a></li>
+                    <li><a href="https://bsalmi2-iut90.github.io/ProjetWeb/Page4/Page_panier.html">Panier</a></li>
+                </div>
+                </div>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" alt="menu-navbar" width="35" height="35" fill="currentColor" class="menu" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <div id="trait"></div>
+    <div id="presentation">
+
+        <h1><strong>Arfau</strong></h1>
+        <br>
+        <h3>Dans ce site vous retrouvez différents armes telle que des Mittraillette, des Fusils d'Assauts, des Fusil de Précisisons, mais aussi des véhicule de Guerre mais aussi de nombreux accessoires  </h3>
+    </div>
+        <div id="produit_et_filtre">
+            <div id="filtre">
+                <h1 style="display: inline; margin-right: 20px;">Filtre</h1><a><button>Supprimmer les filtres</button></a>
+                <br>
+                <h3>Categories</h3>
+                <div id="coche">
+                    <input type="checkbox">
+                    <label for="scales">Fusil d'Assaut</label>
+                    <br>
+                    <input type="checkbox">
+                    <label for="scales">Mittraillette</label>
+                    <br>
+                    <input type="checkbox">
+                    <label for="scales">Fusil de Précisison</label>
+                    <br>
+                    <input type="checkbox">
+                    <label for="scales">Fusil Mitrailleur</label>
+                    <br>
+                    <input type="checkbox">
+                    <label for="scales">Véhicule</label>
+                    <br>
+                    <input type="checkbox">
+                    <label for="scales">Accesoire</label>
+                    <br>
+                    <input type="checkbox">
+                    <label for="scales">Vêtements</label>
+                </div>
+                <br>
+                <h3>Couleur</h3>
+                <div id="couleur">
+                    <div id="row1">
+                        <div id="orange"></div>
+                        <div id="jaune"></div>
+                        <div id="vert"></div>
+                        <div id="bleu"></div>
+                        <div id="blanc"></div>
+                    </div>
+                    <div id="row2">
+                        <div id="rouge"></div>
+                        <div id="violet"></div>
+                        <div id="gris"></div>
+                        <div id="noir"></div>
+                        <div id="rose"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="produit">
+                <div id="trier">
+                    <h1>Trier Par <select name="Popular" id="Popular" holder="Popular" width="2%">
+                        <option value="Populary">Populaire</option>
+                        <option value="">Prix Croissant</option>
+                        <option value="">Prix Décroissant</option>
+                        <option value="">Top des Ventes</option>
+                        </select></h1>
+                </div>
+                <h3>Afficher 213 produits</h3>
+                <div id="article">
+                    <div class="image_article">
+                        <a href="https://bsalmi2-iut90.github.io/ProjetWeb/Page3/Page3.html"><img src="media/20-0926.jpg" alt="MP5"></a>
+                        <div id="gauche_droite">
+                            <div id="gauche">
+                                <h4>Mittraillette: MP5</h4> 
+                            </div>
+                            <div id="droite">
+                                <h4>1002$</h4>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="image_article">
+                        <a><img src="media/ak47.jpg" alt="AK47"></a>
+                        <div id="gauche_droite">
+                            <div id="gauche">
+                                <h4>Fusil d'Assaut: AK47</h4> 
+                        </div>
+                        <div id="droite">
+                            <h4>2000$</h4>
+                        </div>
+                        </div> 
+                    </div>
+                    <div class="image_article">
+                        <a><img src="media/M107_1.jpg" alt="Barret M82"></a>
+                        <div id="gauche_droite">
+                            <div id="gauche">
+                                <h4>Fusil de précisison: Barret M82 </h4> 
+                            </div>
+                            <div id="droite">
+                                <h4>3000$</h4>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="image_article">
+                        <a><img src="media/MK46.jpeg" alt="MK46"></a>
+                        <div id="gauche_droite">
+                            <div id="gauche">
+                                <h4>Fusil Mittraileur: MK46</h4> 
+                           </div>
+                           <div id="droite">
+                               <h4>5000$</h4>
+                           </div>
+                        </div> 
+                    </div>
+                    <div class="image_article">
+                        <a><img src="media/RayGun.jpg" alt="Ray Gun"></a>
+                        <div id="gauche_droite">
+                            <div id="gauche">
+                                <h4>Arme Spécial: Ray Gun Mark1</h4> 
+                            </div>
+                            <div id="droite">
+                                <h4>99 999$</h4>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="image_article">
+                        <a><img src="media/tank.jpg" alt="Tank"></a>
+                        <div id="gauche_droite">
+                            <div id="gauche">
+                                <h4>Véhicule de Guerre: Tank</h4> 
+                            </div>
+                            <div id="droite">
+                                <h4>4 000 000$</h4>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="f1">
+                    <span><strong>Inscrivez vous pour suivre nos informations</strong></span>
+                    <p>Soyer le premier au courant de nos offres spécials, nos nouveaux produits and les différents évènements que nous organisons</p>                
+                    <div class="box">
+                        <div class="boxG">
+                            <input class="email" type="text"name="search" placeholder="Adresse Email..." >
+                        </div>
+                        <div class="boxD">
+                            <a href="#">S'incrire</a> 
+                        </div>
+                    </div>
+                
+            </div>
+            <div class="f2">
+                <span><strong>Boutique</strong></span>
+                <a href="#">Militaire</a>
+                <a href="#">Chasse</a>
+                <a href="#">Munitions</a>
+                <a href="#">Pays</a>
+                <a href="#">Equipement</a>
+                <a href="#">Airsoft</a>
+            </div>
+            <div class="f3">
+               <span><strong>Aide</strong></span>
+               <a href="#">Besoins d'aide</a> 
+               <a href="#">État de la commande</a>
+               <a href="#">Retours & Garantie</a>
+               <a href="#">Nous contacter</a>
+            </div>
+            <div class="f4">
+                <span><strong>À propos</strong></span>
+                <a href="#">À propos de nous</a>
+                <a href="#">Responsabilité</a>
+                <a href="#">Technologie & Innovation</a>
+                </div>
+    </footer>
+</body>
+<script>
+    const menuHamburger = document.querySelector(".menu")
+    const navLinks = document.querySelector(".nav-bar")
+
+    menuHamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('mobile-menu')
+    })
+</script>
+</html>
